@@ -392,3 +392,9 @@ terraform apply
 - **[ARCHITECTURE.md](ARCHITECTURE.md)**: Detailed deployment guide with module composition, security group configuration, and IAM setup
 - **[DIAGRAM.md](DIAGRAM.md)**: Full architecture diagram with all components and environments
 - **[backend-bootstrap/README.md](backend-bootstrap/README.md)**: Instructions for bootstrapping state storage infrastructure
+
+## AI Usage
+
+**AI Assistant**: Warp Dev  
+**Model**: Claude 3.7 Sonnet  
+**Credits Used**: 595 credits

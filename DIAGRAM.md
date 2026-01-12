@@ -1,4 +1,4 @@
-%%{init: {'theme':'base', 'themeVariables': { 'fontSize':'18px', 'fontFamily':'arial'}}}%%
+```mermaid
 graph TB
     subgraph "Multi-Region Deployment"
         subgraph "us-east-1 Region"
@@ -25,10 +25,10 @@ graph TB
                 end
                 
                 subgraph "Data Layer"
-                    RDS1[(RDS PostgreSQL<br/>Multi-AZ Primary)]
+                    RDS1[(RDS PostgreSQL Multi-AZ Primary)]
                     RDS1_R1[(Read Replica 1)]
                     RDS1_R2[(Read Replica 2)]
-                    RDS1_CR[(Cross-Region<br/>Read Replica)]
+                    RDS1_CR[(Cross-Region Read Replica)]
                 end
                 
                 subgraph "Messaging"
@@ -91,7 +91,7 @@ graph TB
                 end
                 
                 subgraph "Data Layer DR"
-                    RDS2[(RDS PostgreSQL<br/>Multi-AZ Primary)]
+                    RDS2[(RDS PostgreSQL Multi-AZ Primary)]
                     RDS2_R1[(Read Replica 1)]
                     RDS2_R2[(Read Replica 2)]
                 end
@@ -166,3 +166,4 @@ graph TB
     style RDS1 fill:#f9f,stroke:#333,stroke-width:4px
     style RDS2 fill:#f9f,stroke:#333,stroke-width:4px
     style RDS1_CR fill:#fcf,stroke:#333,stroke-width:2px
+```
